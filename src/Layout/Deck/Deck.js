@@ -37,7 +37,7 @@ function Deck({ updateDecks }) {
 
   if (deck.id) {
     return (
-      <>
+      <div>
         <nav aria-label='breadcrumb'>
           <ol className='breadcrumb'>
             <li className='breadcrumb-item text-primary'>
@@ -87,7 +87,7 @@ function Deck({ updateDecks }) {
             />
           ))}
         </div>
-      </>
+      </div>
     )
   } else {
     return <p>Loading...</p>

@@ -27,7 +27,7 @@ function StudyCard({ cards }) {
 
   if (cards.length > 2) {
     return (
-      <>
+      <div>
         <div className='card' style={{ width: '32rem' }}>
           <div className='card-body'>
             <h5 className='card-title'>
@@ -50,11 +50,11 @@ function StudyCard({ cards }) {
             )}
           </div>
         </div>
-      </>
+      </div>
     )
   } else {
     return (
-      <>
+      <div>
         <h2>Not enough cards</h2>
         <p>
           You need at least 3 cards to study There are {cards.length} cards in
@@ -65,7 +65,7 @@ function StudyCard({ cards }) {
             <i className='bi bi-plus'> Add Cards</i>
           </button>
         </Link>
-      </>
+      </div>
     )
   }
 }

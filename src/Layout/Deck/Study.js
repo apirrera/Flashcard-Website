@@ -19,7 +19,7 @@ function Study() {
 
   if (Object.keys(deck).length) {
     return (
-      <>
+      <div>
         <nav aria-label='breadcrumb'>
           <ol className='breadcrumb'>
             <li className='breadcrumb-item text-primary'>
@@ -37,7 +37,7 @@ function Study() {
         </nav>
         <h1>Study: {deck.name}</h1>
         <StudyCard cards={deck.cards} />
-      </>
+      </div>
     )
   } else {
     return <p>Loading...</p>

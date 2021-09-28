@@ -15,7 +15,7 @@ function DeckCard({ id, front, back, updateCards }) {
     }
   }
   return (
-    <>
+    <div>
       <div className='card' style={{ width: '40rem' }}>
         <div className='card-body'>
           <div className='d-flex justify-content-between'>
@@ -34,7 +34,7 @@ function DeckCard({ id, front, back, updateCards }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

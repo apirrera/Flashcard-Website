@@ -29,7 +29,7 @@ function AddCard() {
   }, [deckId])
 
   return (
-    <>
+    <div>
       <nav aria-label='breadcrumb'>
         <ol className='breadcrumb'>
           <li className='breadcrumb-item text-primary'>
@@ -86,7 +86,7 @@ function AddCard() {
           </button>
         </div>
       </form>
-    </>
+    </div>
   )
 }
 

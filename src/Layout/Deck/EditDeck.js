@@ -35,7 +35,7 @@ function EditDeck() {
     history.push(`/decks/${deckNum.id}`)
   }
   return (
-    <>
+    <div>
       <nav aria-label='breadcrumb'>
         <ol className='breadcrumb'>
           <li className='breadcrumb-item text-primary'>
@@ -87,7 +87,7 @@ function EditDeck() {
           </button>
         </div>
       </form>
-    </>
+    </div>
   )
 }
 

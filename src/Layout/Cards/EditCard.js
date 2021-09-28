@@ -39,7 +39,7 @@ function EditCard() {
   }, [deckId, cardId])
 
   return (
-    <>
+    <div>
       <nav aria-label='breadcrumb'>
         <ol className='breadcrumb'>
           <li className='breadcrumb-item text-primary'>
@@ -96,7 +96,7 @@ function EditCard() {
           </button>
         </div>
       </form>
-    </>
+    </div>
   )
 }
 
